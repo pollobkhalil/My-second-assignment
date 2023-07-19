@@ -257,6 +257,44 @@ li a{
 
 
 
+ /* start footer */
+ .footer-banner{
+    width: 100%;
+    height: 400px;
+    background: #0B0223;
+ }
+ .footer-titlew{
+    display: flex;
+    color: #fff;
+    gap:20px;
+    font-size: 2.8rem;
+    align-items: center;
+    justify-content: center;
+    padding-top: 50px;
+    
+ }
+.footer-logo{
+    width: 86px;
+    height: 40px;
+}
+.list-contant{
+    display: flex;
+    color: #fff;
+   
+    justify-content: center;
+}
+ul{
+    display: flex;
+    list-style: none;
+    gap: 20px;
+}
+li a{
+    color: #fff;
+}
+
+
+
+
 @media screen and (max-width:576px) {
     nav, 
     ul ,
