@@ -119,14 +119,53 @@ li a{
 
 /* start online games */
 
-.games-card{
-    width: 342px;
-    height: 400px;
+.section-title{
+    text-align: center;
+}
+.card-section{
+    display: grid ;
+    grid-template-columns: repeat(4,240px);
+    align-items: center;
+    justify-content: center;
+    
+}
+.card-1{
+    width: 226px;
+    height: 264px;
+    border-radius: 23px;
+    background-image: url('../images/Rectangle\ 4.png');
+    background-size: contain;
+    background-repeat: no-repeat;
+}
+.card-2{
+    width: 226px;
+    height: 264px;
     border-radius: 23px;
     border: 1px solid red;
     background-image: url('../images/Rectangle\ 4.png');
-    background-size: 100%;
+    background-size: contain;
+    background-repeat: no-repeat;
 }
+.card-3{
+    width: 226px;
+    height: 264px;
+    border-radius: 23px;
+    border: 1px solid red;
+    background-image: url('../images/Rectangle\ 4.png');
+    background-size: contain;
+    background-repeat: no-repeat;
+}
+.card-4{
+    width: 226px;
+    height: 264px;
+    border-radius: 23px;
+    border: 1px solid red;
+    background-image: url('../images/Rectangle\ 4.png');
+    background-size: contain;
+    background-repeat: no-repeat;
+}
+
+
 
 
 @media screen and (max-width:576px) {
