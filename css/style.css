@@ -146,9 +146,12 @@ li a{
 @media screen and (min-width:576px) and (max-width:960px) {
     nav{
         align-items: center;
-        box-shadow: none;
-        
+        box-shadow: none; 
     }
+    .Play-like-the{
+        flex-direction: column;
+    }
+    
     ul{
         flex-direction: column;
         align-items: center;  
