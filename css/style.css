@@ -169,15 +169,48 @@ li a{
 
  .play-instant-section{
     display: flex;
-    
-
+    justify-content: space-around;
+    gap: 7%;
+ }
+ .play-instantly-img{
+    padding-left: 100px;
  }
  .little-img{
     position: relative;
     bottom: 266px;
     right: 112px;
  }
+ .big-img{
+    width: 561px;
+    height: 546px;
+    margin-right: 130px;
+ }
+ .play-instantly-text{
+    text-align: center;
+    padding-top: 180px;
+   justify-content: center;
+  
+   
+   margin-left: 68px;
+ }
+ .big-text{
+    font-size: 40px;
+    font-weight: 700;
+    display: inline;
+    
+ }
+ .text-color{
+    color: #FF42A5;
+    
+ }
+ .pera{
+    color: #534C64;
+    
+    font-size: 18px;
+    font-weight: 400;
+ }
 
+ 
 
 
 
