@@ -183,7 +183,8 @@ li a{
  .big-img{
     width: 561px;
     height: 546px;
-    margin-right: 130px;
+    /* margin-right: 130px; */
+    padding-right: 120px;
  }
  .play-instantly-text{
     text-align: center;
@@ -219,19 +220,36 @@ li a{
 @media screen and (max-width:576px) {
     nav, 
     ul ,
-    .Play-like-the{
+    .Play-like-the ,.play-instant-section{
         flex-direction: column;
         align-items: center; 
         box-shadow: none;  
        
+    }
+    .big-img{
+        
+        width: 400px;
+
+        height: 400px;
+        /* margin-right: 130px; */
+        padding-right: 10px;
+     }
+     .little-img{
+        position: relative;
+        bottom: 165px;
+        right: 56px;
+        width:300px;
+        height: 200px;
+     }
+
+    .play-instant-section{
+        margin-left: 50px;
     }
     .Play-like-the{
        justify-content: center;
     }
     .banner-description{
         margin-left: 10px;
-        
-
     }
     ul{
         flex-wrap: wrap;
