@@ -119,58 +119,58 @@ li a{
 
 /* start online games */
 .game-section{
-    max-width: 1440px;
-    
     display: flex;
-    min-height: 300px;
-    margin: 50px 20px;
-    gap: 10px;
-    justify-content: center;
-
-}
-
-.overlay{
-    transition: .5s ease;
-    position: absolute;
-    top: 0%;
-    left: 0%;
-    height: 100%;
-    width: 100%;
-    color: #fff;
-    opacity: 0.3;
-    border-radius: 10px;
-    transform: translate(0%, 0%);
-    text-align: center;
-    
-    
-}
-.container:hover .image{
-    
-    opacity: 0.3;
-}
-/* .container :hover .overlay{
-   
-    opacity: 0.3;
-} */
-.section-title{
-    text-align: center;
-
-}
-
-.image{
-    width: 100%;
-    display: block;
-    
-}
-.text{
+    gap: 2%;
+    max-width: 1024px;
     align-items: center;
+    justify-content: center;
+    margin-left: 187px;
 }
+.image{
+    position: relative;
+    width: 400px;
+}
+.image----3{
+    display: block;
+    width: 100%;
+    
+
+}
+.img--overlay{
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 235px;
+    height: 100%;
+    background: rgb(2, 2, 2);
+    color: #fff;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    opacity: 0;
+    border-radius: 15px;
+    border: 2px solid #3C354F;
+    transition: 2s;
+}
+.img--overlay:hover{
+    opacity: 0.5;
+
+}
+
+
+
+
+
+
+
  /* start play isntatnly  */
 
  .play-instant-section{
     display: flex;
     justify-content: space-around;
     gap: 7%;
+    max-height: 750px;
  }
  .play-instantly-img{
     padding-left: 100px;
@@ -210,8 +210,26 @@ li a{
     font-size: 18px;
     font-weight: 400;
  }
+ /* end playinstantly */
 
- 
+ .last-banner{
+    width: 100%;
+    height: 400px;
+    background: #FF42A5;
+ }
+ .btn-primary{
+    display: flex;
+    height: 60px;
+    width: 200px;
+    border-radius: 40px;
+    background-color: #fff;
+    /* background-image: url('../images/Rectangle\ 11.png'); */
+    background-repeat: no-repeat;
+    justify-content: center;
+    align-items: center;
+    
+    
+ }
 
 
 
