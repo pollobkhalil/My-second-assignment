@@ -151,7 +151,6 @@ nav li{
     background: rgb(2, 2, 2);
     color: #fff;
     display: flex;
-    
     align-items: center;
     justify-content: center;
     opacity: 0;
