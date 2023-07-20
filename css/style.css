@@ -292,6 +292,17 @@ li a{
     color: #fff;
 }
 
+.footer-icon{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 10px;
+    
+}
+a{
+height: 10px;
+width: 20px;
+}
 
 
 
